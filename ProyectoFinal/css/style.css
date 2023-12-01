@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/d.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Cambiar el texto del h2 */
+form h2 {
+    content: "Registro Cupra 2024";
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: #f00;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+/* Estilo específico para las opciones del select */
+select {
+    background-image: url('../img/a.jpg');
+    background-size: contain;
+    color: transparent;
+}
+
+select option {
+    color: black; /* Cambiar el color del texto a negro */
+}
+
+select option[value="formentor"] {
+    background-image: url('../img/b.jpg');
+    background-size: contain;
+}
+
+select option[value="ateca"] {
+    background-image: url('../img/c.jpg');
+    background-size: contain;
+}
